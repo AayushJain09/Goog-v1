@@ -4,6 +4,6 @@
 
 @layer components {
   .link {
-    @apply hover:underline cursor-pointer font-bold;
+    @apply m-3 hover:underline cursor-pointer ;
   }
 }
