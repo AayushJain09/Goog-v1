@@ -12,7 +12,7 @@ export default function Body() {
     event.preventDefault();
     const term = searchInputRef.current.value; // get the value of the input
     if (!term.trim()) return; // if term is empty, return & trim function removes white spaces
-    router.push(`/search?term=${term.trim()}`); // push to search page
+    router.push(`/search?term=${term.trim()}&searchType=`); // push to search page
   }
 
   return (
