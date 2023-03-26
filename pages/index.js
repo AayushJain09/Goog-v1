@@ -5,17 +5,18 @@ import { SearchIcon, MicrophoneIcon } from "@heroicons/react/solid";
 import Footer from "@/components/Footer";
 import { useRouter } from "next/router";
 import { useRef } from "react";
+import Body from "@/components/Body";
 
 export default function Home() {
-  const router = useRouter();    // useRouter is used to push to search page
-  const searchInputRef = useRef(null);  // useRef is used to get the value of the input
-  // Search function
-  function search(event) {
-    event.preventDefault()
-    const term = searchInputRef.current.value;  // get the value of the input
-    if(!term.trim()) return;      // if term is empty, return & trim function removes white spaces
-    router.push(`/search?term=${term.trim()}`)    // push to search page
-  }
+  // const router = useRouter();    // useRouter is used to push to search page
+  // const searchInputRef = useRef(null);  // useRef is used to get the value of the input
+  // // Search function
+  // function search(event) {
+  //   event.preventDefault()
+  //   const term = searchInputRef.current.value;  // get the value of the input
+  //   if(!term.trim()) return;      // if term is empty, return & trim function removes white spaces
+  //   router.push(`/search?term=${term.trim()}`)    // push to search page
+  // }
 
 
   return (
@@ -29,7 +30,7 @@ export default function Home() {
       {/* Header */}
       <Header />
       {/* Body */}
-      <form className="flex flex-col items-center mt-40">
+      {/* <form className="flex flex-col items-center mt-40">
         <Image
           className="w-52 object-cover cursor-pointer  transition duration-700 ease-out transform hover:scale-125"
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1200px-Google_2015_logo.svg.png"
@@ -46,8 +47,8 @@ export default function Home() {
           <button onClick={search} className="btn">Google Search</button>
           <button className="btn">I&apos;m Feeling Lucky</button>
         </div>
-      </form>
-
+      </form> */}
+      <Body />  
       {/* Footer */}
       <Footer />
     </>
