@@ -6,4 +6,7 @@
   .link {
     @apply m-3 hover:underline cursor-pointer ;
   }
+  .btn{
+    @apply bg-[#f8f9fa] p-3 rounded-md text-gray-800 hover:ring-1 hover:ring-gray-200 focus:outline-none active:ring-gray-400 hover:shadow-md
+  }
 }
