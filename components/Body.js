@@ -24,6 +24,7 @@ export default function Body() {
           width={300}
           height={100}
           alt="google-logo"
+          priority={true}
         />
         <div className="flex w-full mt-5 mx-auto max-w-[90%] border border-gray-200 hover:shadow-lg focus-within:shadow-lg px-5 py-3 rounded-full items-center sm:max-w-xl lg:max-w-2xl">
           <SearchIcon className="h-5 text-gray-500 mr-3 " />
