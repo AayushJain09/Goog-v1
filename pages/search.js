@@ -6,7 +6,7 @@ import Head from "next/head";
 import { useRouter } from "next/router";
 
 export default function search({ results }) {
-  console.log(results);
+  // console.log(results);
   const router = useRouter();
 
   return (
