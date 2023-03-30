@@ -22,7 +22,7 @@ export default function SearchHeader() {
     <header className="sticky top-0 bg-white ">
       <div className="flex w-full p-6 items-center">
         <Image
-          className="cursor-pointer object-cover "
+          className="cursor-pointer object-cover transition duration-700 ease-in-out transform hover:scale-110"
           onClick={() => router.push("/")}
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1200px-Google_2015_logo.svg.png"
           width={120}
