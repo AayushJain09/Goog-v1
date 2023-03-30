@@ -14,6 +14,13 @@ export default function Body() {
     if (!term.trim()) return; // if term is empty, return & trim function removes white spaces
     router.push(`/search?term=${term.trim()}&searchType=`); // push to search page
   }
+  //random search function
+  async function randomSearch(event) {
+    event.preventDefault();
+    const randomTerm = await fetch("https://random-word-api.herokuapp.com/word?number=1").then((response) => response.json()) // get the value of the input
+    if (!randomTerm) return; // if term is empty, return & trim function removes white spaces
+    router.push(`/search?term=${randomTerm}&searchType=`); // push to search page
+  }
 
   return (
     <>
@@ -39,7 +46,7 @@ export default function Body() {
           <button onClick={search} className="btn">
             Google Search
           </button>
-          <button className="btn">I&apos;m Feeling Lucky</button>
+          <button onClick={randomSearch} className="btn">I&apos;m Feeling Lucky</button>
         </div>
       </form>
     </>
