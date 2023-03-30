@@ -1,10 +1,14 @@
 import { useRouter } from "next/router";
 
 export default function SearchHeaderOption({ title, Icon, selected }) {
-    const router = useRouter()
-    function selectTab(title) {
-        router.push(`/search?term=${router.query.term}&searchType=${title === "Images" ? "image" : "" }`) 
-    }
+  const router = useRouter();
+  function selectTab(title) {
+    router.push(
+      `/search?term=${router.query.term}&searchType=${
+        title === "Images" ? "image" : ""
+      }`
+    );
+  }
   return (
     <div
       onClick={() => selectTab(title)}
@@ -12,7 +16,7 @@ export default function SearchHeaderOption({ title, Icon, selected }) {
         selected && "text-blue-500 border-blue-500"
       }`}
     >
-      <Icon className="h-4" />  
+      <Icon className="h-4" />
       <p>{title}</p>
     </div>
   );

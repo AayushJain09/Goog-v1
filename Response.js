@@ -1,471 +1,449 @@
 export default {
-        "kind": "customsearch#search",
-        "url": {
-            "type": "application/json",
-            "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
-        },
-        "queries": {
-            "request": [
-                {
-                    "title": "Google Custom Search - Next js",
-                    "totalResults": "1150000000",
-                    "searchTerms": "Next js",
-                    "count": 10,
-                    "startIndex": 1,
-                    "inputEncoding": "utf8",
-                    "outputEncoding": "utf8",
-                    "safe": "off",
-                    "cx": "c75242a8eadf840f2"
-                }
-            ],
-            "nextPage": [
-                {
-                    "title": "Google Custom Search - Next js",
-                    "totalResults": "1150000000",
-                    "searchTerms": "Next js",
-                    "count": 10,
-                    "startIndex": 11,
-                    "inputEncoding": "utf8",
-                    "outputEncoding": "utf8",
-                    "safe": "off",
-                    "cx": "c75242a8eadf840f2"
-                }
-            ]
-        },
-        "context": {
-            "title": "go-v1"
-        },
-        "searchInformation": {
-            "searchTime": 0.451954,
-            "formattedSearchTime": "0.45",
-            "totalResults": "1150000000",
-            "formattedTotalResults": "1,150,000,000"
-        },
-        "items": [
+    "kind": "customsearch#search",
+    "url": {
+        "type": "application/json",
+        "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+    },
+    "queries": {
+        "request": [
             {
-                "kind": "customsearch#result",
-                "title": "Next.js by Vercel - The React Framework",
-                "htmlTitle": "<b>Next</b>.<b>js</b> by Vercel - The React Framework",
-                "link": "https://nextjs.org/",
-                "displayLink": "nextjs.org",
-                "snippet": "Production grade React applications that scale. The world's leading companies use Next.js by Vercel to build static and dynamic websites and web ...",
-                "htmlSnippet": "Production grade React applications that scale. The world&#39;s leading companies use <b>Next</b>.<b>js</b> by Vercel to build static and dynamic websites and web&nbsp;...",
-                "cacheId": "7I58Nxfiu5IJ",
-                "formattedUrl": "https://nextjs.org/",
-                "htmlFormattedUrl": "https://<b>nextjs</b>.org/",
-                "pagemap": {
-                    "cse_thumbnail": [
-                        {
-                            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9SqqTf5EpKVH0r67DvhRoa22iPwSZTOCAblQhjThJAQh4CUSUOMLHbAOY",
-                            "width": "311",
-                            "height": "162"
-                        }
-                    ],
-                    "metatags": [
-                        {
-                            "msapplication-tilecolor": "#000000",
-                            "og:image": "https://assets.vercel.com/image/upload/v1662090959/front/nextjs/twitter-card.png",
-                            "next-head-count": "11",
-                            "msapplication-config": "/static/favicon/browserconfig.xml",
-                            "twitter:card": "summary_large_image",
-                            "theme-color": "#fff",
-                            "twitter:site": "@vercel",
-                            "viewport": "width=device-width",
-                            "og:title": "Next.js by Vercel - The React Framework",
-                            "og:url": "https://nextjs.org",
-                            "og:description": "Production grade React applications that scale. The world’s leading companies use Next.js by Vercel to build static and dynamic websites and web applications."
-                        }
-                    ],
-                    "cse_image": [
-                        {
-                            "src": "https://assets.vercel.com/image/upload/v1662090959/front/nextjs/twitter-card.png"
-                        }
-                    ]
-                }
-            },
-            {
-                "kind": "customsearch#result",
-                "title": "vercel/next.js: The React Framework - GitHub",
-                "htmlTitle": "vercel/next.js: The React Framework - GitHub",
-                "link": "https://github.com/vercel/next.js/",
-                "displayLink": "github.com",
-                "snippet": "Documentation. Visit https://nextjs.org/docs to view the full documentation. Who is using Next.js?",
-                "htmlSnippet": "Documentation. Visit https://<b>nextjs</b>.org/docs to view the full documentation. Who is using <b>Next</b>.<b>js</b>?",
-                "cacheId": "x_lyMRmYdcQJ",
-                "formattedUrl": "https://github.com/vercel/next.js/",
-                "htmlFormattedUrl": "https://github.com/vercel/<b>next</b>.<b>js</b>/",
-                "pagemap": {
-                    "cse_thumbnail": [
-                        {
-                            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYART_ItKEDEDjEir4iC82heWUHHrUVWxqfPSN5KzcqVaz5dDj2Fa6RWBZ",
-                            "width": "311",
-                            "height": "162"
-                        }
-                    ],
-                    "softwaresourcecode": [
-                        {
-                            "license": "license.md",
-                            "author": "vercel",
-                            "name": "next.js",
-                            "text": "Next.js Getting Started Visit https://nextjs.org/learn to get started with Next.js. Documentation Visit https://nextjs.org/docs to view the full documentation. Who is using Next.js? Next.js..."
-                        }
-                    ],
-                    "metatags": [
-                        {
-                            "octolytics-url": "https://collector.github.com/github/collect",
-                            "apple-itunes-app": "app-id=1477376905",
-                            "og:image": "https://repository-images.githubusercontent.com/70107786/15008733-bde8-4a40-8763-d45e4f4821a7",
-                            "twitter:card": "summary_large_image",
-                            "theme-color": "#1e2327",
-                            "og:site_name": "GitHub",
-                            "hovercard-subject-tag": "repository:70107786",
-                            "turbo-body-classes": "logged-out env-production page-responsive",
-                            "html-safe-nonce": "496d4fd1a86b22cbafa5ce3737f30141b0075e811afa0e3c15eaa87e30f8f4b2",
-                            "expected-hostname": "github.com",
-                            "og:description": "The React Framework. Contribute to vercel/next.js development by creating an account on GitHub.",
-                            "browser-errors-url": "https://api.github.com/_private/browser/errors",
-                            "octolytics-dimension-user_login": "vercel",
-                            "hostname": "github.com",
-                            "twitter:site": "@github",
-                            "browser-stats-url": "https://api.github.com/_private/browser/stats",
-                            "route-pattern": "/:user_id/:repository",
-                            "visitor-payload": "eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiJGQjkzOjNBQkI6RDdCRDQwOjEzRDBDRDI6NjQyNTI3N0YiLCJ2aXNpdG9yX2lkIjoiMzMxODM0MDc5ODIxNzY4NTc2IiwicmVnaW9uX2VkZ2UiOiJpYWQiLCJyZWdpb25fcmVuZGVyIjoiaWFkIn0=",
-                            "github-keyboard-shortcuts": "repository",
-                            "octolytics-dimension-repository_id": "70107786",
-                            "octolytics-dimension-repository_network_root_nwo": "vercel/next.js",
-                            "enabled-features": "TURBO_EXPERIMENT_RISKY,IMAGE_METRIC_TRACKING,GEOJSON_AZURE_MAPS,ENHANCED_ISSUE_SUGGESTER_DARKSHIP,ACTIONS_SIGNALR_RECONNECT_JITTER",
-                            "twitter:title": "GitHub - vercel/next.js: The React Framework",
-                            "og:image:alt": "The React Framework. Contribute to vercel/next.js development by creating an account on GitHub.",
-                            "og:type": "object",
-                            "optimizely-datafile": "{\"groups\": [], \"environmentKey\": \"production\", \"rollouts\": [], \"typedAudiences\": [], \"projectId\": \"16737760170\", \"variables\": [], \"featureFlags\": [], \"experiments\": [], \"version\": \"4\", \"audiences\": [{\"conditions\": \"[\\\"or\\\", {\\\"match\\\": \\\"exact\\\", \\\"name\\\": \\\"$opt_dummy_attribute\\\", \\\"type\\\": \\\"custom_attribute\\\", \\\"value\\\": \\\"$opt_dummy_value\\\"}]\", \"id\": \"$opt_dummy_audience\", \"name\": \"Optimizely-Generated Audience for Backwards Compatibility\"}], \"anonymizeIP\": true, \"sdkKey\": \"WTc6awnGuYDdG98CYRban\", \"attributes\": [{\"id\": \"16822470375\", \"key\": \"user_id\"}, {\"id\": \"17143601254\", \"key\": \"spammy\"}, {\"id\": \"18175660309\", \"key\": \"organization_plan\"}, {\"id\": \"18813001570\", \"key\": \"is_logged_in\"}, {\"id\": \"19073851829\", \"key\": \"geo\"}, {\"id\": \"20175462351\", \"key\": \"requestedCurrency\"}, {\"id\": \"20785470195\", \"key\": \"country_code\"}, {\"id\": \"21656311196\", \"key\": \"opened_downgrade_dialog\"}], \"botFiltering\": false, \"accountId\": \"16737760170\", \"events\": [{\"experimentIds\": [], \"id\": \"17911811441\", \"key\": \"hydro_click.dashboa",
-                            "og:title": "GitHub - vercel/next.js: The React Framework",
-                            "visitor-hmac": "793e7ee5a1d749aafccdf58085b742163037ca7216837cb5e8f807496ba2e8cd",
-                            "turbo-cache-control": "no-preview",
-                            "request-id": "FB93:3ABB:D7BD40:13D0CD2:6425277F",
-                            "analytics-location": "/<user-name>/<repo-name>",
-                            "color-scheme": "light dark",
-                            "octolytics-dimension-repository_is_fork": "false",
-                            "go-import": "github.com/vercel/next.js git https://github.com/vercel/next.js.git",
-                            "browser-optimizely-client-errors-url": "https://api.github.com/_private/browser/optimizely_client/errors",
-                            "twitter:image:src": "https://repository-images.githubusercontent.com/70107786/15008733-bde8-4a40-8763-d45e4f4821a7",
-                            "octolytics-dimension-user_id": "14985020",
-                            "octolytics-dimension-repository_public": "true",
-                            "fb:app_id": "1401488693436528",
-                            "octolytics-dimension-repository_network_root_id": "70107786",
-                            "octolytics-dimension-repository_nwo": "vercel/next.js",
-                            "viewport": "width=device-width",
-                            "twitter:description": "The React Framework. Contribute to vercel/next.js development by creating an account on GitHub.",
-                            "current-catalog-service-hash": "343cff545437bc2b0304c97517abf17bb80d9887520078e9757df416551ef5d6",
-                            "og:url": "https://github.com/vercel/next.js"
-                        }
-                    ],
-                    "cse_image": [
-                        {
-                            "src": "https://repository-images.githubusercontent.com/70107786/15008733-bde8-4a40-8763-d45e4f4821a7"
-                        }
-                    ]
-                }
-            },
-            {
-                "kind": "customsearch#result",
-                "title": "Getting Started | Next.js",
-                "htmlTitle": "Getting Started | <b>Next</b>.<b>js</b>",
-                "link": "https://nextjs.org/docs",
-                "displayLink": "nextjs.org",
-                "snippet": "Next.js is built around the concept of pages. A page is a React Component exported from a .js , .jsx , .",
-                "htmlSnippet": "<b>Next</b>.<b>js</b> is built around the concept of pages. A page is a React Component exported from a .js , .jsx , .",
-                "cacheId": "m7Q72dybttgJ",
-                "formattedUrl": "https://nextjs.org/docs",
-                "htmlFormattedUrl": "https://<b>nextjs</b>.org/docs",
-                "pagemap": {
-                    "cse_thumbnail": [
-                        {
-                            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3AoomFQqMlVDA1ktmC1M0KeSxHA0UvEMzt9QDOrGygKT8dKz-Gzwwm8s",
-                            "width": "311",
-                            "height": "162"
-                        }
-                    ],
-                    "metatags": [
-                        {
-                            "msapplication-tilecolor": "#000000",
-                            "og:image": "https://nextjs.org/static/twitter-cards/docs.png",
-                            "next-head-count": "11",
-                            "msapplication-config": "/static/favicon/browserconfig.xml",
-                            "twitter:card": "summary_large_image",
-                            "theme-color": "#fff",
-                            "twitter:site": "@vercel",
-                            "viewport": "width=device-width",
-                            "og:title": "Getting Started | Next.js",
-                            "og:url": "https://nextjs.org/docs",
-                            "og:description": "Get started with Next.js in the official documentation, and learn more about all our features!"
-                        }
-                    ],
-                    "cse_image": [
-                        {
-                            "src": "https://nextjs.org/static/twitter-cards/docs.png"
-                        }
-                    ]
-                }
-            },
-            {
-                "kind": "customsearch#result",
-                "title": "Next.js - Wikipedia",
-                "htmlTitle": "<b>Next</b>.<b>js</b> - Wikipedia",
-                "link": "https://en.wikipedia.org/wiki/Next.js",
-                "displayLink": "en.wikipedia.org",
-                "snippet": "Next.js is an open-source web development framework created by the private company Vercel providing React-based web applications with server-side rendering ...",
-                "htmlSnippet": "<b>Next</b>.<b>js</b> is an open-source web development framework created by the private company Vercel providing React-based web applications with server-side rendering&nbsp;...",
-                "cacheId": "6o73KimtRxUJ",
-                "formattedUrl": "https://en.wikipedia.org/wiki/Next.js",
-                "htmlFormattedUrl": "https://en.wikipedia.org/wiki/<b>Next</b>.<b>js</b>",
-                "pagemap": {
-                    "metatags": [
-                        {
-                            "referrer": "origin",
-                            "theme-color": "#eaecf0",
-                            "og:type": "website",
-                            "viewport": "width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=0.25, maximum-scale=5.0",
-                            "og:title": "Next.js - Wikipedia",
-                            "format-detection": "telephone=no"
-                        }
-                    ]
-                }
-            },
-            {
-                "kind": "customsearch#result",
-                "title": "Getting Started | Next.js",
-                "htmlTitle": "Getting Started | <b>Next</b>.<b>js</b>",
-                "link": "https://nextjs.org/docs/getting-started",
-                "displayLink": "nextjs.org",
-                "snippet": "Next.js is built around the concept of pages. A page is a React Component exported from a .js , .jsx , .",
-                "htmlSnippet": "<b>Next</b>.<b>js</b> is built around the concept of pages. A page is a React Component exported from a .js , .jsx , .",
-                "cacheId": "OAQ6o4YipFkJ",
-                "formattedUrl": "https://nextjs.org/docs/getting-started",
-                "htmlFormattedUrl": "https://<b>nextjs</b>.org/docs/getting-started",
-                "pagemap": {
-                    "cse_thumbnail": [
-                        {
-                            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3AoomFQqMlVDA1ktmC1M0KeSxHA0UvEMzt9QDOrGygKT8dKz-Gzwwm8s",
-                            "width": "311",
-                            "height": "162"
-                        }
-                    ],
-                    "metatags": [
-                        {
-                            "msapplication-tilecolor": "#000000",
-                            "og:image": "https://nextjs.org/static/twitter-cards/docs.png",
-                            "next-head-count": "11",
-                            "msapplication-config": "/static/favicon/browserconfig.xml",
-                            "twitter:card": "summary_large_image",
-                            "theme-color": "#fff",
-                            "twitter:site": "@vercel",
-                            "viewport": "width=device-width",
-                            "og:title": "Getting Started | Next.js",
-                            "og:url": "https://nextjs.org/docs/getting-started",
-                            "og:description": "Get started with Next.js in the official documentation, and learn more about all our features!"
-                        }
-                    ],
-                    "cse_image": [
-                        {
-                            "src": "https://nextjs.org/static/twitter-cards/docs.png"
-                        }
-                    ]
-                }
-            },
-            {
-                "kind": "customsearch#result",
-                "title": "Next.js on Vercel – Vercel",
-                "htmlTitle": "<b>Next</b>.<b>js</b> on Vercel – Vercel",
-                "link": "https://vercel.com/solutions/nextjs",
-                "displayLink": "vercel.com",
-                "snippet": "Next.js platform. Vercel's platform is made by the creators of Next.js, designed for Next.js applications. Unlock the enhanced Next.",
-                "htmlSnippet": "<b>Next</b>.<b>js</b> platform. Vercel&#39;s platform is made by the creators of <b>Next</b>.<b>js</b>, designed for <b>Next</b>.<b>js</b> applications. Unlock the enhanced Next.",
-                "cacheId": "wE8O2BuDQ0oJ",
-                "formattedUrl": "https://vercel.com/solutions/nextjs",
-                "htmlFormattedUrl": "https://vercel.com/solutions/<b>nextjs</b>",
-                "pagemap": {
-                    "cse_thumbnail": [
-                        {
-                            "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRMsiXIGuY7mXTyqSWORJiO-zzlufyz8Po8riZhOCrHxvv8dyl3-GpthKI",
-                            "width": "300",
-                            "height": "168"
-                        }
-                    ],
-                    "metatags": [
-                        {
-                            "msapplication-tilecolor": "#000000",
-                            "og:image": "https://assets.vercel.com/image/upload/front/vercel/twitter-card.png",
-                            "next-head-count": "33",
-                            "twitter:card": "summary",
-                            "theme-color": "var(--geist-background)",
-                            "twitter:site": "@vercel",
-                            "viewport": "width=device-width, initial-scale=1.0",
-                            "og:title": "Next.js on Vercel – Vercel",
-                            "apple-mobile-web-app-title": "Vercel",
-                            "og:url": "https://vercel.com/solutions/nextjs",
-                            "og:description": "Get the fast builds and simple setup that developers love, now integrated into a single, automated workflow.",
-                            "twitter:image": "https://assets.vercel.com/image/upload/front/vercel/twitter-card.png"
-                        }
-                    ],
-                    "cse_image": [
-                        {
-                            "src": "https://assets.vercel.com/image/upload/front/vercel/twitter-card.png"
-                        }
-                    ]
-                }
-            },
-            {
-                "kind": "customsearch#result",
-                "title": "Create a Next.js App | Learn Next.js",
-                "htmlTitle": "Create a <b>Next</b>.<b>js</b> App | Learn <b>Next</b>.<b>js</b>",
-                "link": "https://nextjs.org/learn/basics/create-nextjs-app",
-                "displayLink": "nextjs.org",
-                "snippet": "Next.js: The React Framework · An intuitive page-based routing system (with support for dynamic routes) · Pre-rendering, both static generation (SSG) and server- ...",
-                "htmlSnippet": "<b>Next</b>.<b>js</b>: The React Framework &middot; An intuitive page-based routing system (with support for dynamic routes) &middot; Pre-rendering, both static generation (SSG) and server-&nbsp;...",
-                "cacheId": "sxsKLkepVSoJ",
-                "formattedUrl": "https://nextjs.org/learn/basics/create-nextjs-app",
-                "htmlFormattedUrl": "https://<b>nextjs</b>.org/learn/basics/create-<b>nextjs</b>-app",
-                "pagemap": {
-                    "cse_thumbnail": [
-                        {
-                            "src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRyLox6VeXflNuA_Oomi5FB-EEEQtBxfxNq_SEtdBDQ5Y-yQ21kt1vsKNA",
-                            "width": "311",
-                            "height": "162"
-                        }
-                    ],
-                    "metatags": [
-                        {
-                            "msapplication-tilecolor": "#000000",
-                            "og:image": "https://nextjs.org/static/twitter-cards/learn-twitter.png",
-                            "next-head-count": "11",
-                            "msapplication-config": "/static/favicon/browserconfig.xml",
-                            "twitter:card": "summary_large_image",
-                            "theme-color": "#fff",
-                            "twitter:site": "@vercel",
-                            "viewport": "width=device-width",
-                            "og:title": "Learn | Next.js",
-                            "og:url": "https://nextjs.org/learn",
-                            "og:description": "Production grade React applications that scale. The world’s leading companies use Next.js by Vercel to build pre-rendered applications, static websites, and more."
-                        }
-                    ],
-                    "cse_image": [
-                        {
-                            "src": "https://nextjs.org/static/twitter-cards/learn-twitter.png"
-                        }
-                    ]
-                }
-            },
-            {
-                "kind": "customsearch#result",
-                "title": "Next.js",
-                "htmlTitle": "<b>Next</b>.<b>js</b>",
-                "link": "https://next.js.org/",
-                "displayLink": "next.js.org",
-                "snippet": "Next.js. The React Framework for Production. Go to nextjs.org.",
-                "htmlSnippet": "<b>Next</b>.<b>js</b>. The React Framework for Production. Go to <b>nextjs</b>.org.",
-                "cacheId": "uqEYBZNVwrYJ",
-                "formattedUrl": "https://next.js.org/",
-                "htmlFormattedUrl": "https://<b>next</b>.<b>js</b>.org/",
-                "pagemap": {
-                    "metatags": [
-                        {
-                            "viewport": "width=device-width, initial-scale=1.0"
-                        }
-                    ]
-                }
-            },
-            {
-                "kind": "customsearch#result",
-                "title": "next - npm",
-                "htmlTitle": "<b>next</b> - npm",
-                "link": "https://www.npmjs.com/package/next",
-                "displayLink": "www.npmjs.com",
-                "snippet": "Mar 10, 2023 ... Start using next in your project by running `npm i next`. ... Repository. github.com/vercel/next.js. Homepage. nextjs.org ...",
-                "htmlSnippet": "Mar 10, 2023 <b>...</b> Start using next in your project by running `npm i next`. ... Repository. github.com/vercel/<b>next</b>.<b>js</b>. Homepage. <b>nextjs</b>.org&nbsp;...",
-                "formattedUrl": "https://www.npmjs.com/package/next",
-                "htmlFormattedUrl": "https://www.npmjs.com/package/<b>next</b>",
-                "pagemap": {
-                    "cse_thumbnail": [
-                        {
-                            "src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTitg4cLF1-jOfkixUlEpQ7hfWPlmya1tRF5BvwwkO-uUjs9RK48AEvH_s",
-                            "width": "150",
-                            "height": "79"
-                        }
-                    ],
-                    "metatags": [
-                        {
-                            "msapplication-tilecolor": "#cb3837",
-                            "og:image": "https://static.npmjs.com/338e4905a2684ca96e08c7780fc68412.png",
-                            "msapplication-config": "https://static.npmjs.com/668aac888e52ae13cac9cfd71fabd31f.xml",
-                            "theme-color": "#cb3837",
-                            "twitter:card": "summary",
-                            "twitter:title": "npm: next",
-                            "og:site_name": "npm",
-                            "twitter:url": "https://www.npmjs.com/package/next",
-                            "og:title": "next",
-                            "msapplication-tileimage": "https://static.npmjs.com/7a7ffabbd910fc60161bc04f2cee4160.png",
-                            "og:description": "The React Framework. Latest version: 13.2.4, last published: 20 days ago. Start using next in your project by running `npm i next`. There are 3139 other projects in the npm registry using next.",
-                            "viewport": "width=device-width,minimum-scale=1.0,initial-scale=1,user-scalable=yes",
-                            "apple-mobile-web-app-capable": "yes",
-                            "twitter:description": "The React Framework. Latest version: 13.2.4, last published: 20 days ago. Start using next in your project by running `npm i next`. There are 3139 other projects in the npm registry using next.",
-                            "og:url": "https://www.npmjs.com/package/next"
-                        }
-                    ],
-                    "cse_image": [
-                        {
-                            "src": "https://static.npmjs.com/338e4905a2684ca96e08c7780fc68412.png"
-                        }
-                    ]
-                }
-            },
-            {
-                "kind": "customsearch#result",
-                "title": "Next.js Storefront Quickstart | Medusa",
-                "htmlTitle": "<b>Next</b>.<b>js</b> Storefront Quickstart | Medusa",
-                "link": "https://docs.medusajs.com/starters/nextjs-medusa-starter",
-                "displayLink": "docs.medusajs.com",
-                "snippet": "Mar 21, 2023 ... js Starter Storefront. Next.js Storefront Demo. Instant Deployment to Netlify​. Instead of manually following this guide to install then later ...",
-                "htmlSnippet": "Mar 21, 2023 <b>...</b> js Starter Storefront. <b>Next</b>.<b>js</b> Storefront Demo. Instant Deployment to Netlify​. Instead of manually following this guide to install then later&nbsp;...",
-                "cacheId": "-WVTnY0-bzsJ",
-                "formattedUrl": "https://docs.medusajs.com/starters/nextjs-medusa-starter",
-                "htmlFormattedUrl": "https://docs.medusajs.com/starters/<b>nextjs</b>-medusa-starter",
-                "pagemap": {
-                    "cse_thumbnail": [
-                        {
-                            "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTWGG4Iqsq01Msm-OFrVOrAmr-wfmexidqlm_0ulPclhz4kIBbhTa9K0PJ0",
-                            "width": "310",
-                            "height": "163"
-                        }
-                    ],
-                    "metatags": [
-                        {
-                            "og:image": "https://docs.medusajs.com/img/docs-banner.jpg",
-                            "twitter:card": "summary_large_image",
-                            "docsearch:version": "current",
-                            "og:title": "Next.js Storefront Quickstart | Medusa",
-                            "docusaurus_version": "current",
-                            "docsearch:language": "en",
-                            "og:description": "Learn how to install the Next.js starter storefront to use with Medusa. The Next.js storefront includes ready-integrations with plugins like Stripe and Algolia. It offers features like customer accounts, cart and checkout flows, and more.",
-                            "twitter:image": "https://docs.medusajs.com/img/docs-banner.jpg",
-                            "docusaurus_tag": "docs-default-current",
-                            "viewport": "width=device-width, initial-scale=1.0",
-                            "docusaurus_locale": "en",
-                            "docsearch:docusaurus_tag": "docs-default-current",
-                            "og:url": "https://docs.medusajs.com/starters/nextjs-medusa-starter"
-                        }
-                    ],
-                    "cse_image": [
-                        {
-                            "src": "https://docs.medusajs.com/img/docs-banner.jpg"
-                        }
-                    ],
-                    "listitem": [
-                        {
-                            "name": "Next.js Storefront",
-                            "position": "1"
-                        }
-                    ]
-                }
+                "title": "Google Custom Search - tailwind csssearchType=image",
+                "totalResults": "5",
+                "searchTerms": "tailwind csssearchType=image",
+                "count": 5,
+                "startIndex": 1,
+                "inputEncoding": "utf8",
+                "outputEncoding": "utf8",
+                "safe": "off",
+                "cx": "c75242a8eadf840f2"
             }
         ]
+    },
+    "context": {
+        "title": "go-v1"
+    },
+    "searchInformation": {
+        "searchTime": 0.132645,
+        "formattedSearchTime": "0.13",
+        "totalResults": "5",
+        "formattedTotalResults": "5"
+    },
+    "spelling": {
+        "correctedQuery": "tailwind css search Type=image",
+        "htmlCorrectedQuery": "tailwind <b><i>css search Type</i></b>=image"
+    },
+    "items": [
+        {
+            "kind": "customsearch#result",
+            "title": "Tailwind CSS Search Bar - Free Examples & Tutorial",
+            "htmlTitle": "<b>Tailwind</b> CSS Search Bar - Free Examples &amp; Tutorial",
+            "link": "https://tailwind-elements.com/docs/standard/forms/search/",
+            "displayLink": "tailwind-elements.com",
+            "snippet": "Use responsive search bar component with helper examples for search inputs, search with icon, search with button & more. Free download, open-source license.",
+            "htmlSnippet": "Use responsive search bar component with helper examples for search inputs, search with icon, search with button &amp; more. Free download, open-source license.",
+            "cacheId": "rU76LKMNtmIJ",
+            "formattedUrl": "https://tailwind-elements.com/docs/standard/forms/search/",
+            "htmlFormattedUrl": "https://<b>tailwind</b>-elements.com/docs/standard/forms/search/",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdDCnlvSRWXTjbO7W7tKTePgsg5Iw9P0_XUb-fATQbDQ7QxDNdG35qynUr",
+                        "width": "316",
+                        "height": "159"
+                    }
+                ],
+                "metatags": [
+                    {
+                        "image": "https://tailwind-elements.com/img/components-big.jpg",
+                        "og:image": "https://tailwind-elements.com/img/components-big.jpg",
+                        "twitter:card": "summary_large_image",
+                        "twitter:title": "Tailwind CSS Search Bar - Free Examples & Tutorial",
+                        "og:type": "website",
+                        "og:site_name": "Tailwind Elements",
+                        "msvalidate.01": "A2863151C6FC9B7534BBF5F0AFD435AC",
+                        "og:title": "Tailwind CSS Search Bar - Free Examples & Tutorial",
+                        "twitter:creator": "@MDBootstrap",
+                        "og:description": "Use responsive search bar component with helper examples for search inputs, search with icon, search with button & more. Free download, open-source license.",
+                        "twitter:image:src": "https://tailwind-elements.com/img/components-big.jpg",
+                        "twitter:player": "https://www.youtube.com/watch?v=-GmnyjgI4Jc&ab_channel=Keepcoding",
+                        "twitter:site": "@MDBootstrap",
+                        "og:video": "https://www.youtube.com/watch?v=-GmnyjgI4Jc&ab_channel=Keepcoding",
+                        "viewport": "width=device-width, initial-scale=1.0",
+                        "twitter:description": "Use responsive search bar component with helper examples for search inputs, search with icon, search with button & more. Free download, open-source license.",
+                        "og:locale": "en_US",
+                        "og:url": "https://tailwind-elements.com/docs/standard/forms/search/"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://tailwind-elements.com/img/components-big.jpg"
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "css - Editing input type=\"search\" Pseudo-element Button ('x') - Stack ...",
+            "htmlTitle": "css - Editing input type=&quot;search&quot; Pseudo-element Button (&#39;x&#39;) - Stack ...",
+            "link": "https://stackoverflow.com/questions/20804016/editing-input-type-search-pseudo-element-button-x",
+            "displayLink": "stackoverflow.com",
+            "snippet": "Dec 27, 2013 ... I want to move it a little bit left so it will fix my search bar image. Here is my HTML: <input id=\"search\" name=\"Search\" type ...",
+            "htmlSnippet": "Dec 27, 2013 <b>...</b> I want to move it a little bit left so it will fix my search bar <b>image</b>. Here is my HTML: &lt;input id=&quot;search&quot; name=&quot;Search&quot; type&nbsp;...",
+            "cacheId": "1Y5r1s599I0J",
+            "formattedUrl": "https://stackoverflow.com/.../editing-input-type-search-pseudo-element- button-x",
+            "htmlFormattedUrl": "https://stackoverflow.com/.../editing-input-type-search-pseudo-element- button-x",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQYl7zuT3cw_BBRAyhdQEbQuBgqdNHXKHIYKL8S8ly8x9L_XA9sdwSmiHs",
+                        "width": "225",
+                        "height": "225"
+                    }
+                ],
+                "qapage": [
+                    {
+                        "image": "https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon@2.png?v=73d79a89bded",
+                        "primaryimageofpage": "https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon@2.png?v=73d79a89bded",
+                        "name": "Editing input type=\"search\" Pseudo-element Button ('x')",
+                        "description": "I'm trying to make a search bar that will look nice. What I did is, I made an image of an search bar and I'm adding the image to the back-ground of the input and I'm editing the place and the size ..."
+                    }
+                ],
+                "question": [
+                    {
+                        "image": "https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=c78bd457575a",
+                        "upvotecount": "108",
+                        "commentcount": "6",
+                        "answercount": "8",
+                        "name": "Editing input type=\"search\" Pseudo-element Button ('x')",
+                        "datecreated": "2013-12-27T16:21:56",
+                        "text": "I'm trying to make a search bar that will look nice. What I did is, I made an image of an search bar and I'm adding the image to the back-ground of the input and I'm editing the place and the...",
+                        "url": "Share"
+                    }
+                ],
+                "answer": [
+                    {
+                        "upvotecount": "141",
+                        "commentcount": "4",
+                        "text": "For anyone finding themselves here (as I did) thinking \"how do I inspect this element to apply custom styles?\", you'll need to enable the user agent shadow DOM to make these vendor elements...",
+                        "datecreated": "2019-10-21T11:04:11",
+                        "url": "Share"
+                    },
+                    {
+                        "upvotecount": "97",
+                        "commentcount": "6",
+                        "text": "Styling the \"x\" cancel search button in Webkit browsers Assuming you're talking about \"Cancel search\" [X] icon that appeas in Webkit browsers only (Chrome, Safari, Opera) you can use -webkit-search...",
+                        "datecreated": "2013-12-27T16:33:59",
+                        "url": "Share"
+                    },
+                    {
+                        "upvotecount": "60",
+                        "commentcount": "6",
+                        "text": "2022 Cross-browser consistent approach Here is a cross-browser implementation of the Clear Search \"x\" button, It uses the solid times-circle SVG from FontAwesome for the icon and works for...",
+                        "datecreated": "2020-10-08T17:40:24",
+                        "url": "Share"
+                    },
+                    {
+                        "upvotecount": "12",
+                        "commentcount": "1",
+                        "text": "I want to move [the small 'x' icon] a little bit left so it will fix my search bar image. Users expect things not to move much is UIs. If you decide to move the 'x' icon consider using pseudo-class...",
+                        "datecreated": "2019-01-09T15:47:00",
+                        "url": "Share"
+                    },
+                    {
+                        "upvotecount": "6",
+                        "commentcount": "2",
+                        "text": "Does a simple \"X\" with a dark or light backdrop using a single block of CSS rules. Run code snippet to see example. /* light backdrops only */ input[type=\"search\"]::-webkit-search-cancel-button...",
+                        "datecreated": "2022-05-22T02:48:53",
+                        "url": "Share"
+                    },
+                    {
+                        "upvotecount": "1",
+                        "text": "Just to highlight better how to figure out such kinds of things by ourselves. As shown and mentioned in @UncaughtTypeError answer above https://stackoverflow.com/a/58484957/7668448 Also in...",
+                        "datecreated": "2022-12-01T10:00:13",
+                        "url": "Share"
+                    },
+                    {
+                        "upvotecount": "0",
+                        "text": "#input[type=\"search\"]::-webkit-search-cancel-button { // Using the two lines below will allow you to insert a image -webkit-appearance: none; -webkit-user-modify: read-write !important; height:...",
+                        "datecreated": "2021-08-31T19:24:13",
+                        "url": "Share"
+                    },
+                    {
+                        "upvotecount": "-9",
+                        "text": "I'm not sure is this what you were looking for, but you can style your search bar like this fiddle HTML <div id=\"input\"> <input type=\"text\" id=\"tb\" /> <a id=\"close\" href=\"#\"><img src=\"http://www.ec...",
+                        "datecreated": "2013-12-27T16:36:38",
+                        "url": "Share"
+                    }
+                ],
+                "person": [
+                    {
+                        "name": "user3139952"
+                    },
+                    {
+                        "name": "UncaughtTypeError"
+                    },
+                    {
+                        "name": "Yuriy Galanter"
+                    },
+                    {
+                        "name": "JamesWilson"
+                    },
+                    {
+                        "name": "vhs"
+                    },
+                    {
+                        "name": "Airerr"
+                    },
+                    {
+                        "name": "Mohamed Allal"
+                    },
+                    {
+                        "name": "Vidhi Shah"
+                    },
+                    {
+                        "name": "tilda"
+                    }
+                ],
+                "metatags": [
+                    {
+                        "og:image": "https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon@2.png?v=73d79a89bded",
+                        "og:type": "website",
+                        "twitter:card": "summary",
+                        "twitter:title": "Editing input type=\"search\" Pseudo-element Button ('x')",
+                        "og:site_name": "Stack Overflow",
+                        "twitter:domain": "stackoverflow.com",
+                        "viewport": "width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0",
+                        "twitter:description": "I'm trying to make a search bar that will look nice. What I did is, I made an image of an search bar and I'm adding the image to the back-ground of the input and I'm editing the place and the size ...",
+                        "og:url": "https://stackoverflow.com/questions/20804016/editing-input-type-search-pseudo-element-button-x"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon@2.png?v=73d79a89bded"
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Bootstrap 4 Google type search box inputgroup | Search, Type, Css",
+            "htmlTitle": "Bootstrap 4 Google type search box inputgroup | Search, Type, Css",
+            "link": "https://www.pinterest.com/pin/bootstrap-4-google-type-search-box-inputgroup--852658141957628851/",
+            "displayLink": "www.pinterest.com",
+            "snippet": "Tailwind css play media button. Tailwind css play media button snippet for your project . this snippet is created using HTML, CSS, Tailwind css, ...",
+            "htmlSnippet": "<b>Tailwind</b> css play media button. <b>Tailwind</b> css play media button snippet for your project . this snippet is created using HTML, CSS, <b>Tailwind</b> css,&nbsp;...",
+            "cacheId": "i4J5yz_GIS4J",
+            "formattedUrl": "https://www.pinterest.com/.../bootstrap-4-google-type-search-box-inputgroup --852658141957628851/",
+            "htmlFormattedUrl": "https://www.pinterest.com/.../bootstrap-4-google-type-search-box-inputgroup --852658141957628851/",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfdZE_6dAeh4GAQQIgG7-5qyX-1y0IeyuSYnBPZXyHf7xHnkYQ7Ua2-O0",
+                        "width": "293",
+                        "height": "172"
+                    }
+                ],
+                "metatags": [
+                    {
+                        "application-name": "Pinterest",
+                        "msapplication-tilecolor": "#ffffff",
+                        "og:see_also": "https://bbbootstrap.com/snippets/google-type-search-box-inputgroup-21963395",
+                        "og:image": "https://i.pinimg.com/736x/d8/84/a8/d884a8424e9e027acd73745a73c6d16f.jpg",
+                        "og:image:width": "500",
+                        "og:type": "pinterestapp:pin",
+                        "twitter:title": "Bootstrap 4 Google type search box inputgroup | Search, Type, Css",
+                        "pinterestapp:source": "https://bbbootstrap.com/snippets/google-type-search-box-inputgroup-21963395",
+                        "og:site_name": "Pinterest",
+                        "og:title": "Bootstrap 4 Google type search box inputgroup | Search, Type, Css",
+                        "og:image:height": "293",
+                        "msapplication-tileimage": "https://s.pinimg.com/webapp/logo_trans_144x144-5e37c0c6.png",
+                        "og:updated_time": "2021-08-25T04:17:26.000Z",
+                        "pinterestapp:repins": "0",
+                        "pinterestapp:pinboard": "https://www.pinterest.com/bbbootstrap/httpsbbbootstrapcom/",
+                        "og:description": "Aug 25, 2021 - Bootstrap 4 Google type search box inputgroup snippet for your project 📌📌. this snippet is created using HTML, CSS, Bootstrap 4, Javascript",
+                        "twitter:image:src": "https://i.pinimg.com/736x/d8/84/a8/d884a8424e9e027acd73745a73c6d16f.jpg",
+                        "pinterestapp:pinner": "https://www.pinterest.com/bbbootstrap/",
+                        "referrer": "origin",
+                        "fb:app_id": "274266067164",
+                        "viewport": "width=device-width, initial-scale=1",
+                        "twitter:description": "Aug 25, 2021 - Bootstrap 4 Google type search box inputgroup snippet for your project 📌📌. this snippet is created using HTML, CSS, Bootstrap 4, Javascript",
+                        "og:url": "https://www.pinterest.com/pin/bootstrap-4-google-type-search-box-inputgroup--852658141957628851/"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://i.pinimg.com/736x/d8/84/a8/d884a8424e9e027acd73745a73c6d16f.jpg"
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "css - display pointer on hover close icon in search textbox - Stack ...",
+            "htmlTitle": "css - display pointer on hover close icon in search textbox - Stack ...",
+            "link": "https://stackoverflow.com/questions/46791545/display-pointer-on-hover-close-icon-in-search-textbox",
+            "displayLink": "stackoverflow.com",
+            "snippet": "Oct 17, 2017 ... @DanieleFois , when you write something in textbox , you will see x icon at the end of textbox , like it display into the image.",
+            "htmlSnippet": "Oct 17, 2017 <b>...</b> @DanieleFois , when you write something in textbox , you will see x icon at the end of textbox , like it display into the <b>image</b>.",
+            "cacheId": "nFA-iL56EHMJ",
+            "formattedUrl": "https://stackoverflow.com/.../display-pointer-on-hover-close-icon-in-search- textbox",
+            "htmlFormattedUrl": "https://stackoverflow.com/.../display-pointer-on-hover-close-icon-in-search- textbox",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQYl7zuT3cw_BBRAyhdQEbQuBgqdNHXKHIYKL8S8ly8x9L_XA9sdwSmiHs",
+                        "width": "225",
+                        "height": "225"
+                    }
+                ],
+                "qapage": [
+                    {
+                        "image": "https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon@2.png?v=73d79a89bded",
+                        "primaryimageofpage": "https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon@2.png?v=73d79a89bded",
+                        "name": "display pointer on hover close icon in search textbox",
+                        "description": "I am using a input type search in my application. I want to display cursor:pointer when user mouse hover on x icon in search box , i tried to find out css for this but not find anything releated to..."
+                    }
+                ],
+                "question": [
+                    {
+                        "image": "https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=c78bd457575a",
+                        "upvotecount": "4",
+                        "commentcount": "5",
+                        "answercount": "4",
+                        "name": "display pointer on hover close icon in search textbox",
+                        "datecreated": "2017-10-17T13:36:50",
+                        "text": "I am using a input type search in my application. I want to display cursor:pointer when user mouse hover on x icon in search box , i tried to find out css for this but not find anything releated...",
+                        "url": "Share"
+                    }
+                ],
+                "answer": [
+                    {
+                        "upvotecount": "16",
+                        "commentcount": "0",
+                        "text": "Perhaps something like this can work? input[type=\"search\"]::-webkit-search-decoration:hover, input[type=\"search\"]::-webkit-search-cancel-button:hover { cursor:pointer; } <input type=\"search\">...",
+                        "datecreated": "2017-10-17T13:44:16",
+                        "url": "Share"
+                    },
+                    {
+                        "upvotecount": "1",
+                        "text": "Use the ::-webkit-search-cancel-button selector and set a cursor: pointer; on it. NOTE: This only works for chrome and safari. See MDN for more info. input[type=\"search\"]::-webkit-search-cancel-but...",
+                        "datecreated": "2017-10-17T13:50:25",
+                        "url": "Share"
+                    },
+                    {
+                        "upvotecount": "0",
+                        "commentcount": "1",
+                        "text": "To place X icon in input u can do this trick: .input-container { border: 1px solid #DDD; } .x-icon { float: right; } .x-icon:hover { cursor: pointer; } <div class=\"input-container\"> <span class=\"x-...",
+                        "datecreated": "2017-10-17T13:44:23",
+                        "url": "Share"
+                    },
+                    {
+                        "upvotecount": "0",
+                        "text": "You can create same functionality with regular text input and one span element as x button if you are not happy with current browser support of search input type. $('.inputField input').on('input',...",
+                        "datecreated": "2017-10-17T13:58:50",
+                        "url": "Share"
+                    }
+                ],
+                "person": [
+                    {
+                        "name": "Ketan Modi"
+                    },
+                    {
+                        "name": "Ketan Modi"
+                    },
+                    {
+                        "name": "o01"
+                    },
+                    {
+                        "name": "Red"
+                    },
+                    {
+                        "name": "Czeran"
+                    },
+                    {
+                        "name": "Nenad Vracar"
+                    }
+                ],
+                "metatags": [
+                    {
+                        "og:image": "https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon@2.png?v=73d79a89bded",
+                        "og:type": "website",
+                        "twitter:card": "summary",
+                        "twitter:title": "display pointer on hover close icon in search textbox",
+                        "og:site_name": "Stack Overflow",
+                        "twitter:domain": "stackoverflow.com",
+                        "viewport": "width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0",
+                        "twitter:description": "I am using a input type search in my application. I want to display cursor:pointer when user mouse hover on x icon in search box , i tried to find out css for this but not find anything releated to...",
+                        "og:url": "https://stackoverflow.com/questions/46791545/display-pointer-on-hover-close-icon-in-search-textbox"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon@2.png?v=73d79a89bded"
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "WebKit HTML5 Search Inputs | CSS-Tricks - CSS-Tricks",
+            "htmlTitle": "WebKit HTML5 Search Inputs | CSS-Tricks - CSS-Tricks",
+            "link": "https://css-tricks.com/webkit-html5-search-inputs/",
+            "displayLink": "css-tricks.com",
+            "snippet": "Aug 25, 2010 ... A search input in WebKit by default has an inset border, rounded corners, and strict typographic control. The Styling Limitations. WebKit has ...",
+            "htmlSnippet": "Aug 25, 2010 <b>...</b> A search input in WebKit by default has an inset border, rounded corners, and strict typographic control. The Styling Limitations. WebKit has&nbsp;...",
+            "cacheId": "rc37nPS3gJEJ",
+            "formattedUrl": "https://css-tricks.com/webkit-html5-search-inputs/",
+            "htmlFormattedUrl": "https://css-tricks.com/webkit-html5-search-inputs/",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRA4ttSdT_j6uu85ZWiS0gqv2f1j340cB5R6rg9RWwEZgb2-lfh_f9-IA",
+                        "width": "421",
+                        "height": "120"
+                    }
+                ],
+                "xfn": [
+                    {}
+                ],
+                "metatags": [
+                    {
+                        "og:image": "https://css-tricks.com/wp-json/social-image-generator/v1/image/7261",
+                        "theme-color": "#ff7a18",
+                        "article:published_time": "2010-08-25T20:45:16-07:00",
+                        "twitter:card": "summary_large_image",
+                        "og:image:width": "1200",
+                        "og:site_name": "CSS-Tricks",
+                        "twitter:label1": "Written by",
+                        "twitter:label2": "Time to read",
+                        "msapplication-tileimage": "https://i0.wp.com/css-tricks.com/wp-content/uploads/2021/07/star.png?fit=180%2C180&ssl=1",
+                        "og:description": "One of the new types of inputs in HTML5 is search.",
+                        "twitter:creator": "@chriscoyier",
+                        "article:publisher": "https://www.facebook.com/CSSTricks",
+                        "twitter:image": "https://css-tricks.com/wp-json/social-image-generator/v1/image/7261",
+                        "twitter:data1": "Chris Coyier",
+                        "twitter:data2": "3 minutes",
+                        "twitter:site": "@CSS",
+                        "article:modified_time": "2014-02-10T12:08:47-08:00",
+                        "og:type": "article",
+                        "article:section": "Article",
+                        "og:image:alt": "WebKit HTML5 Search Inputs",
+                        "twitter:title": "WebKit HTML5 Search Inputs | CSS-Tricks",
+                        "og:title": "WebKit HTML5 Search Inputs | CSS-Tricks",
+                        "og:image:height": "630",
+                        "og:updated_time": "2014-02-10T12:08:47-08:00",
+                        "viewport": "width=device-width",
+                        "twitter:description": "One of the new types of inputs in HTML5 is search.",
+                        "og:locale": "en_US",
+                        "og:url": "https://css-tricks.com/webkit-html5-search-inputs/"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://i0.wp.com/css-tricks.com/wp-content/uploads/2010/08/fontsizedifference.png?resize=464%2C132"
+                    }
+                ]
+            }
+        }
+    ]
 }
